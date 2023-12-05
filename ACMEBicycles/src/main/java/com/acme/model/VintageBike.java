@@ -15,13 +15,17 @@ public class VintageBike extends  AbstarctRoadBike{
     }
 
     @Override
-    protected int getStartNumber() {
+    public int getStartNumber() {
         return 753159;
     }
 
     @Override
-    protected String getPrefix() {
+    public String getPrefix() {
         return "VB801";
+    }
+    @Override
+   public String toString() {
+        return "Vintage Bike";
     }
 
 

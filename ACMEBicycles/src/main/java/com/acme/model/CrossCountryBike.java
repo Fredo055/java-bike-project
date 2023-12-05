@@ -14,12 +14,17 @@ public class CrossCountryBike extends AbstractMountainBike {
     }
 
     @Override
-    protected int getStartNumber() {
+    public int getStartNumber() {
         return 258456;
     }
 
     @Override
-    protected String getPrefix() {
+    public String getPrefix() {
         return "MB605";
+    }
+
+    @Override
+    public String toString() {
+        return "Cross Country Bike";
     }
 }

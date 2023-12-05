@@ -14,9 +14,11 @@ public abstract class AbstractBike implements
 
 
     public abstract BigDecimal getPrice();
-    protected abstract int getStartNumber();
-    protected abstract String getPrefix();
-    protected abstract String getWheelType();
+   public abstract int getStartNumber();
+    public abstract String getPrefix();
+   public abstract String getWheelType();
+   public abstract String getOptionName();
+   public abstract BigDecimal getOptionAmount();
 
     public FrameColors getFrameColor() {
         return color;

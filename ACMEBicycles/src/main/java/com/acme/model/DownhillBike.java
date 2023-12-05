@@ -15,12 +15,17 @@ public class DownhillBike extends AbstractMountainBike{
     }
 
     @Override
-    protected int getStartNumber() {
+    public int getStartNumber() {
         return 852654;
     }
 
     @Override
-    protected String getPrefix() {
+    public String getPrefix() {
         return "DB505";
+    }
+
+    @Override
+    public String toString() {
+        return "Downhill Bike";
     }
 }
